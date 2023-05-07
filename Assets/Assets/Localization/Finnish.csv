@@ -1,0 +1,394 @@
+﻿Id,Value
+storyBegin,"The kingdom of Ardor has been at peace for many years, but one day, dark clouds gather on the horizon. The evil sorcerer Malakar has returned, and he is determined to conquer Ardor and enslave its people. With his army of undead soldiers and dark magic, Malakar begins to march towards the capital city, intent on destroying everything in his path.You are the commander of the city's defenses, responsible for protecting the people of Ardor and stopping Malakar's army from reaching the city gates. You must build and upgrade defensive structures, recruit and train soldiers, and strategically place your troops to defend against the enemy's attacks.As you progress through the game, you will face increasingly difficult challenges as Malakar's army grows in strength and numbers. You will need to adapt your defenses, unlocking new technologies and spells to fight back against the enemy's powerful magic and advanced siege weapons.But the fate of Ardor rests on more than just your defenses. You will need to gather intelligence, recruit allies, and launch counterattacks to weaken the enemy's forces and eventually defeat Malakar himself. Only then can you restore peace to the kingdom and vanquish the evil sorcerer once and for all."
+storyPlayerWins,"Pitkän ja vaikean taistelun jälkeen sinä ja armeijasi olette vihdoin voittanut Malakarin ja hänen joukkonsa. Paha velho makaa voitettuna, ja hänen armeijansa on hajallaan tuuleen. Kun tarkastelet taistelun jälkiä, näet Ardorin kansan nousevan kodeistaan ja suojistaan, kannustamassa ja juhlimassa voittoaan. Aurinko paistaa jälleen, ja ilma on täynnä musiikin ja naurun ääntä. Tunnustuksena urheudestasi ja johtajuudestasi Ardorin kuningas palkitsee sinulle korkeimmat kunnianosoitukset, ja valtakunnan ihmiset tervehtivät sinua sankarina . Valtakunta aloittaa jälleenrakennustyön ja sodan aiheuttamista vahingoista toipumisen, mutta tulevaisuus näyttää valoisalta, ja Ardorin ihmiset ovat jälleen täynnä toivoa. Mitä tulee sinuun, tiedät, ettei työsi ole vielä tehty. Ardorille tulee aina uusia uhkia ja uusia haasteita voitettavana. Mutta toistaiseksi voit paistatella voiton kirkkaudessa tietäen, että olet pelastanut valtakuntasi ja tuonut rauhan takaisin maahan."
+storyPlayerLose,"Parhaista yrityksistäsi huolimatta Malakarin joukot olivat liian voimakkaita ja rikkoivat kaupungin portit. Armeijasi taisteli urhoollisesti, mutta se ei ollut vertaa vihollisen hellittämättömälle etenemiselle. Taistelun jatkuessa näet kaupungin joutuvan kaaokseen. Rakennukset palavat, ihmiset pakenevat joka suuntaan, ja vihollissotilaat riehuvat kaduilla. Tiedät, että tämä on loppu, eikä voitosta ole toivoa. Raskain sydämin käsket joukkosi vetäytymään toivoen, että voit ryhmitellä uudelleen ja käynnistää vastahyökkäyksen myöhemmin. Mutta kun pakenet kaupungista, näet Malakarin armeijan jälkeen jääneen tuhon. Ardorin ihmiset ovat sekasorron vallassa ja valtakunta raunioina. Seuraavina päivinä ja viikkoina yrität rakentaa uudelleen joukkosi ja käynnistää uuden hyökkäyksen vihollista vastaan. Mutta se on liian myöhäistä. Malakarin armeija on jo valloittanut suurimman osan valtakunnasta, ja hänen otteensa vallasta on liian vahva murrettavaksi. Vuosien kuluessa kuulet huhuja kapinasta ja vastarinnasta, mutta pahan noidan voima murskaa ne nopeasti. Elät loput päiväsi häpeässä ja katumuksessa, ja sinua ahdistaa muisto epäonnistumisestasi suojella Ardorin ihmisiä ja voittanut Malakarin."
+cancel,Peruuttaa
+continue,Jatkaa
+accept,Hyväksyä
+newGame,Uusi peli
+start,Alkaa
+load,Ladata
+changeLanguage,Vaihda kieltä
+exitGame,Poistu pelistä
+deleteConfirmation,Haluatko varmasti poistaa tämän tallennetun pelin?
+yes,Joo
+no,Ei
+pikeman,Pikiniekka
+pikemanDescription,"Piikkarit ovat linnan puolustuksen selkäranka, jotka seisovat lujasti vihollisjoukkojen hyökkäystä vastaan. Raskaisiin haarniskaisiin pukeutuneena ja pitkiä keihäitä käyttävinä ne muodostavat murtumattoman puolustusmuurin, joka kestää päättäväisimmänkin hyökkäyksen. Heidän kurinalaisuus ja koulutus näkyvät heidän tarkassa kokoonpanossaan ja horjumattomassa päättäväisyydessään. He pitävät linjaa vihollisen hyökkäystä vastaan, ja heidän pitkät keihäänsä työntyvät ulos yhdessä muodostaen teräsesteen, jota yksikään hyökkääjä ei voi läpäistä. Vihollisjoukkojen lähestyessä haikkurit pysyvät lujina ja heidän kilpensä muodostavat läpäisemättömän puolustusmuurin. He ovat linnan porttien vartijoita, valmiita torjumaan kaikki tunkeilijat, jotka uskaltavat haastaa heidän auktoriteettinsa. Raskaista haarnisoistaan ​​ja hankalia aseistaan ​​huolimatta haikurit liikkuvat yllättävän ketterästi, ja ketterän jalkatyönsä ansiosta he voivat väistää vihollisen hyökkäyksen läpi. He käyttävät keihäitään tehokkaasti, iskevät tappavalla tarkkuudella ja pitävät vihollisen loitolla. Kriisiaikoina haihkurit reagoivat ensimmäisenä ja ryntäsivät etulinjoihin kohtaamaan vihollista. He ovat linnanpuolustuksen laulamattomia sankareita, kestäviä ja horjumattomia vaaran edessä. Jokaisella työntöllä ja torjunnalla haikurit luovat teräsmuurin, jota vihollinen ei voi rikkoa. He seisovat korkeina ja ylpeinä, heidän terävät keihäänsä kimaltelevat auringonpaisteessa, symboloi linnan voimaa ja kestävyyttä. Lopulta haikurit pitävät maata alhaalla, kun jousimiehet sataa alas nuolia ylhäältä. He ovat ensimmäinen puolustuslinja, eivätkä he peräänny ennen kuin viimeinen hyökkääjä on kaatunut."
+archer,Jousimies
+archerDescription,"Jousimiehet ovat linnanpuolustuksen silmiä ja korvia, jotka etsivät horisontista merkkejä lähestyvistä vihollisvoimista. Aseistettuna voimakkailla pitkäjousilla ja nuolia täynnä olevalla värillä, he lyövät kuolemaa vihollisilleen turvallisesta etäisyydestä. Heidän taitojaan on hiottu vuosien harjoittelun aikana, jolloin he ampuvat nuolia tappavan tarkasti. He tähtäävät varovasti, heidän vakaat kätensä eivät koskaan horju, kun he irrottelevat nuoliaan taivaalle. Jousimiehet ovat tärkeä osa linnan puolustusta, ja ne tarjoavat suojaa linnan muureilta ja torneilta. He työskentelevät rinnakkain maassa olevien haikkien kanssa ja poistavat kaikki viholliset, jotka rikkovat linnan kehän. Huolimatta etäisyydestä etulinjoista, jousimiehet eivät ole vaarattomia. Vihollisjoukot kohdistavat heidät usein nuolilla ja muilla ammuksilla, ja heidän on pysyttävä valppaina välttääkseen osumia. Tämän estämiseksi jousimiehet ovat kehittäneet erilaisia ​​puolustustaktiikoita käyttämällä kilpiä ja muita esteitä suojellakseen itseään samalla, kun he jatkavat ampumistaan. vihollinen. Suuren tarpeen aikana jousimiehet voivat myös nousta maahan käyttämällä jousiaan lähiaseina. Nopeillaan reflekseillään ja tappavalla tarkkuudellaan he ovat varteenotettava voima myös lähietäisyydeltä. Lopulta jousimiehet tarjoavat suojan ja tuen, jota haikkuri tarvitsee pitämään maan alapuolella. He ovat linnan puolustuksen silmät ja korvat, ja he jatkavat kuoleman sadetta vihollistensa ylle, kunnes viimeinen nuoli on ammuttu."
+delete,Poistaa
+loading,Ladataan
+selectGame,Valitse peli
+automaticallyLoadGame,Lataa valittu paikka automaattisesti seuraavan kerran
+mainMenu,Päävalikko
+upgrades,Päivitykset
+information,Opetusohjelma
+play,pelata
+fireballAbilityName,Pyroblasti
+fireballAbilityDescription,"Pyroblastikyky on voimakas hyökkäys, joka laukaisee palavan liekkipallon polttaen tiellään olevat viholliset."
+coinAbilityName,Onnen suosio
+coinAbilityDescription,"Kolikkobonuskyky on tehokas lisäke, joka voi lisätä pelaajan varallisuutta merkittävästi lyhyessä ajassa. Kun kyky aktivoidaan, se käynnistää hyvän onnen aallon, joka antaa bonusta tapetuista vihollisista.-kyky on voimakas lisäys, joka voi merkittävästi lisätä pelaajan varallisuutta lyhyessä ajassa. Kun kyky aktivoituu, se laukaisee onnenaallon, joka antaa bonusta tapetuilta vihollisilta"
+poisonAbilityName,Myrkky pyörre
+poisonAbilityDescription,"Myrkky pyörre on voimakas hyökkäys, joka luo myrkyllisen myrkkypilven, joka vahingoittaa kaikkia sen säteellä olevia vihollisia. Kun kyky aktivoidaan, taikurista lähtee tumma pilvi, joka leviää ulospäin ja nielaisee kaikki viholliset vaikutusalueella.Myrkyllinen pilvi aiheuttaa jatkuvaa vahinkoa ajan mittaan heikentäen vihollisen puolustusta ja tehden hänet haavoittuvaksi hyökkäyksille. Pilven viipyessä sen aiheuttama vahinko voimistuu, mikä tekee siitä erityisen tehokkaan hyökkäyksen suuria vihollisryhmiä vastaan.Myrkkypyörre ei kuitenkaan ole riskitön. Myrkkypilvi voi vahingoittaa myös sen säteellä olevia liittolaisia, joten pelaajien on käytettävä tätä kykyä varovasti ja varmistettava, etteivät he vahingoita vahingossa omia joukkojaan.Kaiken kaikkiaan Myrkkyaluevaikutus-kyky on arvokas työkalu pelaajille, jotka haluavat heikentää vihollisen puolustusta ja saada yliotteen taistelussa. Huolellisella käytöllä se voi osoittautua peliä muuttavaksi hyökkäykseksi, joka kääntää taistelun kulun pelaajan eduksi."
+timewarpAbilityName,Aikasiirtymä
+timewarpAbilityDescription,"Aikasiirtymäkyky on voimakas ohjauskyky, joka hidastaa kaikkien sen säteellä olevien vihollisten aikaa. Kun pelaaja aktivoi sen, hän luo aikakentän, joka saa viholliset liikkumaan ja hyökkäämään hidastetulla nopeudella, mikä helpottaa hyökkäysten väistämistä tai vastahyökkäyksen käynnistämistä.Kun aikakenttä säilyy, viholliset liikkuvat yhä hitaammin, jolloin pelaaja voi hyödyntää heidän hitauttaan. Kyvyn kesto on kuitenkin rajallinen, joten pelaajan on käytettävä kentän sisällä oleva aika mahdollisimman hyvin ennen kuin se haihtuu."
+ ,Verenhimo
+ ,"Verenhimokyky on voimakas hyökkäyskyky, joka antaa pelaajayksiköille voimaa ja nopeutta. Aktivoituessaan pelaaja ja hänen läheiset liittolaisensa verhoavat verenpunaiseen auraan, joka ruokkii heidän aggressiivisuuttaan ja lisää heidän vaurioitumistaan. Kun Bloodlust-kyky jatkuu, pelaajayksiköistä tulee vahvempia, nopeampia ja aggressiivisempia, jolloin ne voivat voittaa jopa kovimmat viholliset. Kuitenkin kyvyn aiheuttama voimakas raivo voi myös tehdä pelaajista piittaamattomampia ja alttiimpia vaurioille. On tärkeää, että pelaajat käyttävät Bloodlust-kykyä strategisesti, hyödyntäen sen vaikutuksia ratkaisevan hyökkäyksen käynnistämiseen tai nopean hyökkäyksen päättämiseen. erityisen kova vihollinen. Oikein suunnitellulla ja toteutuksella Bloodlust-kyky voi olla tehokas työkalu kääntää taistelun aalto pelaajan eduksi."
+turretsUpgradesTitle,Tornit
+castleUpgradesTitle,Linna
+unitsUpgradesTitle,Yksiköt
+abilitiesUpgradesTitle,Kyvyt
+close,kiinni
+unitAttackSpeedUpgradeDescription,"Tämä päivitys lisää pelaajan yksiköiden hyökkäysnopeutta, jolloin ne voivat iskeä nopeammin ja tehdä vahinkoa nopeammin. Ostettaessa pelaajan yksiköt lisäävät näkyvästi hyökkäysnopeuttaan, mikä tekee niistä tehokkaampia taistelussa."
+unitAttackDamageUpgradeDescription,"Tämän päivityksen myötä yksikkösi aiheuttavat enemmän vahinkoa vihollisyksiköille, mikä tekee niistä entistäkin pelottavampia taistelussa."
+unitHealthBonusUpgradeDescription,"Tämä päivitys lisää pelaajan yksiköiden maksimaalista kuntoa, jolloin ne kestävät enemmän vaurioita ennen kuin ne häviävät. Investoimalla tähän päivitykseen pelaajat voivat parantaa huomattavasti yksikköjensä selviytymiskykyä, jolloin he voivat kestää vihollisen yksiköiden hyökkäyksiä pidempiä aikoja."
+unitMovementSpeedUpgradeDescription,"Tämä päivitys lisää pelaajan yksiköiden liikenopeutta, jolloin ne voivat kulkea taistelukentällä nopeammin ja tehokkaammin. Ostettaessa pelaajan yksiköt lisäävät näkyvästi liikenopeuttaan"
+turretsAttackRangeUpgradeDescription,"Tämä päivitys lisää tornin hyökkäysetäisyyttä, jolloin he voivat hyökätä vihollisiin kauempaa. Kun torni ostetaan, se lisää näkyvästi niiden kantamaa, mikä tekee niistä tehokkaampia osumaan kohteisiin turvalliselta etäisyydeltä."
+unitBuildingSpeedUpgradeDescription,"Tämä päivitys lisää nopeutta, jolla pelaajan torneja rakennetaan, jolloin he voivat nopeasti vahvistaa tukikohtaansa vihollisen hyökkäyksiä vastaan. Ostettaessa pelaajan tornit rakennetaan nopeammin, mikä vähentää aikaa, joka tarvitaan vahvan puolustuskehän muodostamiseen."
+unitInstantlyBuildBuildingUpgradeDescription,"Tämän päivityksen avulla pelaajayksiköt voivat rakentaa rakennuksia välittömästi, mikä vähentää huomattavasti aikaa, joka tarvitaan vahvan tukikohdan luomiseen. Ostettaessa pelaajan yksiköt saavat mahdollisuuden rakentaa rakennuksia nopeasti ilman pitkiä rakennusaikaa."
+cashBonusAbilityBonusUpgradeDescription,Tämä päivitys parantaa pelaajan käteisbonuskykyä lisäämällä jokaisesta tapetusta vihollisyksiköstä myönnettävää bonussummaa. Ostettaessa pelaaja saa suuremman bonussumman jokaisesta kukistamastaan ​​vihollisyksiköstä.
+poisonAbilityLengthUpgradeDescription,"Tämä päivitys pidentää myrkkyaluevaikutuksen kestoa, jolloin se pystyy käsittelemään vahinkoa pidemmän aikaa. Pidennetty tehostepituus voi auttaa pelaajia hallitsemaan taistelukenttää ja ottamaan vihollisen yksiköitä tehokkaammin."
+castleBonusHealthUpgradeDescription,"Tämä päivitys parantaa linnasi kuntoa ja tekee siitä kestävämmän vihollisen hyökkäyksiä vastaan. Koska linnasi on puolustuksesi sydän, on tärkeää pitää se hyvässä kunnossa, ja tämä päivitys on täydellinen tapa tehdä se. Vahvemman ja kestävämmän linnan avulla voit kestää jopa säälimättömät vihollisen hyökkäykset ja selviytyä voittajana. Päivitä nyt antaaksesi linnallesi sen terveyttä, jota se tarvitsee selviytyäkseen!"
+castleShootingUpgradeDescription,"Tämän päivityksen myötä linnasi on varustettu tehokkaalla nuolenheittimellä, joka voi sataa tappavia nuolilentopalloja vihollisesi päälle. Tämä parannus parantaa huomattavasti puolustustasi, jolloin voit pitää vihollisen loitolla turvalliselta etäisyydeltä."
+fireballAbilityInstantlyKillUpgradeDescription,"Tämän päivityksen myötä Fireball-kyky polttaa välittömästi kaikki vihollisyksiköt, jotka jäävät kiinni sen räjähdyssäteeseen heidän terveydestä riippumatta. Tämä päivitys parantaa suuresti Fireball-kyvyn tuhoavaa voimaa tehden siitä vielä tappavamman vihollisjoukkoja vastaan. Käytä sitä suurten vihollisryhmien puhdistamiseen helposti tai tärkeiden kohteiden nopeaan poistamiseen."
+buy,Ostaa
+ ,Ostettu
+abilityManaCostReductionUpgradeDescription,"Tämä päivitys vähentää tämän kyvyn käyttämiseen tarvittavan manan määrää, jolloin voit käyttää sitä useammin taistelussa. Mana Usage Reduction -päivityksen avulla voit päästää kykysi valloilleen useammin ja kääntää taistelun aallon eduksesi. Hanki päivitys nyt ja tule pysäyttämättömäksi voimaksi taistelukentällä!"
+abilityDamageIncreaseUpgradeDescription,Tämä päivitys lisää kyvyn vaurioiden määrää tehden niistä tehokkaampia ja tuhoisampia vihollisesi kannalta.
+cashBonusLongerEffectUpgradeDescription,"Tämän päivityksen myötä käteispalkkiokyvyn vaikutus kestää pidempään, mikä antaa sinulle enemmän aikaa hyödyntää ylimääräisiä käteisvaroja lyötyiltä vihollisiltasi. Longer Effect -päivityksen avulla voit kerätä omaisuutta ja luoda läpäisemättömän linnoituksen, jota vihollisesi eivät koskaan voi murtaa. Joten, mitä sinä odotat? Päivitä nyt ja hyödynnä voiton palkintoja!"
+poisonAbilityDamagePerSecondUpgradeDecription,"Tämän päivityksen myötä Myrkyn aluevaikutus tekee nyt entistä enemmän vahinkoa sekunnissa kaikille vihollisille, jotka ovat kiinni sen myrkyllisellä säteellä. Myrkky syö vihollistesi terveyden paljon nopeammin, mikä tekee siitä entistä tappavamman ja tehokkaamman työkalun linnasi puolustamiseen. Bigger Damage Per Second -päivityksen ansiosta vihollisesi kaatuvat pelosta pelkästä ajatuksestasi ylittää polkusi. Joten, mitä sinä odotat? Päivitä nyt ja katso vihollisesi murenevan myrkkysi alla!"
+poisonAbilityRangeUpgradeDescription,"Tämän päivityksen myötä Myrkkyalueen vaikutusalue kasvaa huomattavasti, jolloin pelaaja voi levittää myrkkypilven laajemmalle alueelle ja vaikuttaa useampaan viholliseen. Myrkytetyt viholliset kärsivät vaurioita ajan myötä, mikä helpottaa pelaajan yksiköiden tuhoamista. Suurempi kantama tarkoittaa myös sitä, että pelaaja voi kattaa enemmän maata ja suojella laajempaa aluetta taistelukentällä. Se on olennainen päivitys pelaajille, jotka haluavat hallita vihollisen joukkoja tappavalla myrkkyllään."
+timeWarpAbilitySlowDownBonusUpgradeDescription,"Aikavääristymäkyky hidastaa kaikkien sen vaikutusalueella olevien vihollisyksiköiden liikenopeutta, mikä helpottaa puolustusrakenteiden tuhoamista. Liikkeen hidastusbonus on merkittävä lisäys, mikä tekee vihollisen äärimmäisen vaikeaksi navigoida ja tehokkaasti koordinoida hyökkäystään. Tämän kyvyn avulla voit strategisesti hidastaa vihollisen etenemistä ja ostaa itsellesi lisää aikaa vahvistaa puolustustasi tai käynnistää vastahyökkäys."
+timeWarpAbilitySlowAttackSpeedUpgradeDescription,"Päivitä Aikavääristymäkykyäsi hidastaaksesi sen säteelle jääneiden vihollisten hyökkäysnopeutta. Tämän lisäyksen ansiosta viholliset kamppailevat hyökkääessään yhtä nopeasti kuin tavallisesti, jolloin puolustuksellesi on paremmat mahdollisuudet torjua niitä. Tämä päivitys on täydellinen pelaajille, jotka haluavat käyttää Time Warp -kykyä puolustuskeinona, koska sen avulla voit strategisesti hidastaa vihollisen hyökkäyksiä ja ostaa enemmän aikaa torneillesi työnsä tekemiseen."
+timeWarpFreezingEnemiesUpgradeDescription,Absolute Zero -päivityksen myötä Time Warp -kyky jäädyttää viholliset raiteilleen ja pysäyttää heidän liikkeensä ja hyökkäysnopeudensa kokonaan. Tämä päivitys parantaa huomattavasti pelaajan yksiköiden puolustuskykyä ja antaa niille arvokkaan ajan sijoitteluun ja valmistautumiseen tulevaan vihollisten aaltoon.
+timeWarpEffectLength,Aikavääristymäkykyä voidaan parantaa laajentamaan sen ajallista vaikutusta pidemmälle ajanjaksolle. Tämän päivityksen myötä ajallisen vääristymän kiinni jääneet viholliset joutuvat loukkuun pidemmäksi ajaksi
+turretsBonusHealthUpgradeDescription,"Tämä päivitys vahvistaa torniasi, parantaa sen terveyttä ja tekee siitä vastustuskykyisemmän vihollisen hyökkäyksiä vastaan. Ylimääräisen panssaripinnoituksen ja vahvemman materiaalin ansiosta linnoitettu tornisi voi kestää enemmän rangaistusta ja pysyä taistelussa pidempään. Tämä päivitys on täydellinen suojaamaan kriittisiä paikkoja tai pitämään linjaa suuria vihollisjoukkoja vastaan."
+turretsAttackSpeedUpgradeDescription,"Tämä päivitys lisää tornin laukaisunopeutta. Parannetun koneiston ja paremman koulutuksen ansiosta torni pystyy vapauttamaan nopeamman ja tappavamman padon vihollisen yksiköitä vastaan. Tämä päivitys on välttämätön pelaajille, jotka haluavat torjua suurempia vihollisia ja puolustaa linnaansa suuremmalla tulivoimalla."
+selectedUnits,Valitut yksiköt
+researchUnit,Tutki yksikköä
+day,PÄIVÄ
+gameOver,Peli ohi
+tutorialInfo,"Tervetuloa Knights keep kingdomiin, jännittävään peliin, jossa pelaat urhoollisena linnan puolustajana! Sinun tehtäväsi on suojata linnaasi saapuvilta vihollisilta 50 päivää putkeen. Onko sinulla tarvittavat välineet pidätellä säälimättömät hyökkääjät ja selvitä voittajana? <br>Aluksi käydään läpi perusasiat. Linnasi sijaitsee peliruudun keskellä, ja viholliset lähestyvät joka puolelta. Sinun tehtäväsi on värvätä armeija ja rakentaa puolustavia torneja pitääksesi ne loitolla ja estääksesi niitä rikkomasta seiniäsi. <br>Voit sijoittaa nämä rakenteet napsauttamalla niiden kuvakkeita näytön vasemman reunan rakentamisvalikossa ja vetämällä ne sitten haluamaasi paikkaan. Sitten sinun on määrättävä rakentaja rakentamaan torni.<br>Kun edistyt päivien aikana, ansaitset kultaa vihollisten voittamisesta ja tasojen suorittamisesta. Voit käyttää tätä kultaa palkkaamaan lisää joukkoja ja torneja taistelemaan rinnallasi. Pidä silmällä kultavarantoasi ja kuluta viisaasti, sillä sinun on tasapainotettava hyökkäys ja puolustus selviytyäksesi.<br>Staattisen puolustuksesi lisäksi sinulla on käytettävissäsi myös erikoiskykyjä ja loitsuja, jotka voivat kääntää vuoroveden taistelusta. Jos selviät kaikki 50 päivää, sinusta tulee todellinen sankari ja valtakunnan puolustaja. Mutta varoita, tie edessä on pitkä ja vaarallinen. Oletko valmis haasteeseen? Otetaan selvää!"
+holdingFinger,"Kun alat pitää sormea ja alat sitten liikkua sormella, luot yksiköillesi valintaalueen. Ja kun vapautat sormesi, kaikki yksikkösi valitaan."
+zoomIn,Zoomaa näkymää
+zoomOut,Loitonna näkymää
+askForTutorial,"Näyttää siltä, että olet täällä ensimmäistä kertaa! Haluatko nähdä opetusohjelman?"
+moveCamera,Voit liikkua kartalla kahdella sormella
+tutorialMainPanel,"Pääpaneelissa sinulla on 4 vaihtoehtoa: rakentaa torneja, heittää kykyjä, värvätä yksiköitä ja antaa käskyjä yksiköille."
+tutorialBuilding,"Kun olet valinnut tornin, sinun on asetettava se haluamaasi paikkaan ja vahvistettava se. Sitten sinun on valittava rakentaja ja määrättävä hänet rakentamaan tuo torni."
+tutorialCastAbilities,"Voit heittää manaan kykyjä, jos kyky on alueefekti, sinun tulee ensin valita paikka ja sitten vahvistaa se."
+tutorialRecruitUnits,"Voit ostaa yksiköitä, joita olet jo tutkinut, ostetut yksiköt ilmestyvät linnan ympärille. Voit antaa näille yksiköille erityisiä tilauksia."
+tutorialGiveOrder,
+deselectAllUnits,Poista yksiköiden valinnat
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
+ ,
