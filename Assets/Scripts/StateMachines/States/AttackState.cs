@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using Project.StateMachines.States;
 using Project.Units;
 using System.Collections;
@@ -29,14 +30,23 @@ namespace Project.StateMachines
             this.offsetY = offsetY;
         }
 
-        public override void StateUpdate() 
+        public override void StateUpdate()
         {
-            if(attackTarget == null) {
-                Debug.Log("Attack target is null");
-                var enemyTransform = EnemyFinder.GetEnemyTransform(stateMachine.EnemyLayerMask, stateMachine.transform.position,10);
+            var enemyTransform = EnemyFinder.GetEnemyTransform(stateMachine.EnemyLayerMask, stateMachine.transform.position, 6);
+            if (enemyTransform != null)
+            {
+                Vector2 directionToEnemy = enemyTransform.position - stateMachine.transform.position;
+                if (directionToEnemy.magnitude <= unitStats.AttackRange)
+                {
+                    stateMachine.MoveUnit(directionToEnemy, true);
+                    stateMachine.unitAnimatorValuesSetter.SetAttackTrigger();
+                }
+            }
+            if(attackTarget == null)
+            {
+                enemyTransform = EnemyFinder.GetEnemyTransform(stateMachine.EnemyLayerMask, stateMachine.transform.position, 10);
                 if (enemyTransform != null)
                 {
-                    Debug.Log("Found " + enemyTransform.name);
                     AttackState attackState = new AttackState(enemyTransform, stateMachine);
                     stateMachine.ChangeState(attackState);
                 }
@@ -45,9 +55,11 @@ namespace Project.StateMachines
                     Debug.Log("NO enemy found");
                     stateMachine.ChangeState(new IdleState(stateMachine));
                 }
-            }
+            }          
+
             MoveToTarget();
         }
+
 
         private void MoveToTarget()
         {

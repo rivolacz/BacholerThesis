@@ -11,6 +11,7 @@ namespace Project
         BuilderUpgrades builderUpgrades;
         private ConstructionSite constructionSite { get; set; }
         private Vector3 BuildingPosition { get; set; }
+        float buildSpeed = 1;
 
         public BuildingState(ConstructionSite building, Vector3 position, StateMachine stateMachine) : base(stateMachine)
         {
@@ -22,11 +23,6 @@ namespace Project
         public override void Enter()
         {
             Debug.Log("Building a building with cost of " + constructionSite.name);
-        }
-
-        public override void StateUpdate()
-        {
-            float buildSpeed = 1;
             if (builderUpgrades.BuildingSpeedMultiplierBought)
             {
                 buildSpeed *= builderUpgrades.BuildingSpeedMultiplier;
@@ -35,6 +31,12 @@ namespace Project
             {
                 buildSpeed = 99999999;
             }
+            Debug.Log("Build speed " + buildSpeed);
+        }
+
+        public override void StateUpdate()
+        {
+            Debug.Log("Building");
             bool finished = constructionSite.ProgressWithBuild(Time.deltaTime * buildSpeed);
             if(finished)
             {

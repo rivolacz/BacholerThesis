@@ -21,6 +21,7 @@ namespace Project
         {
             if (target == null) { 
                 Destroy(gameObject);
+                return;
             }
             Vector3 direction = (target.position - transform.position).normalized;
             transform.position += direction * speed * Time.deltaTime;

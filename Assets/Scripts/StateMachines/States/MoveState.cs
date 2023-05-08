@@ -1,4 +1,5 @@
 using FunkyCode.SuperTilemapEditorSupport.Light.Shadow;
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +19,7 @@ namespace Project.StateMachines.States
         private int currentNodeIndex = 0;
         private Transform unitTransform;
         private Transform attackTarget;
-        private BaseState stateAfterMovingToTarget;
+        public BaseState stateAfterMovingToTarget;
         private float offsetToTarget = 0;
         private bool usePathfinding = true;
 
@@ -109,6 +110,13 @@ namespace Project.StateMachines.States
 #if UNITY_EDITOR
             Debug.DrawLine(stateMachine.transform.position, stateMachine.transform.position + (Vector3)directionToTarget, UnityEngine.Color.green, 0.1f);
 #endif
+            Vector3 currentPosition = stateMachine.transform.position;
+            float distance = Vector3.Distance(TargetPosition ,currentPosition);
+            if(distance < 2 && stateAfterMovingToTarget != null)
+            {
+                Debug.Log("Next state is " + stateAfterMovingToTarget.GetType());
+                stateMachine.ChangeState(stateAfterMovingToTarget);
+            }
             if (IsClosetToAttackTarget())
             {
                 stateMachine.ChangeState(new AttackState(attackTarget, stateMachine));
@@ -141,10 +149,7 @@ namespace Project.StateMachines.States
                     IncreaseNodeIndex();
                 }
             }
-            else
-            {
-                stateMachine.MoveUnit(directionToTarget.normalized);
-            }
+            stateMachine.MoveUnit(directionToTarget.normalized);
         }
 
         private bool IsClosetToAttackTarget()
@@ -173,9 +178,9 @@ namespace Project.StateMachines.States
 
         private bool IsAtEndOfPath()
         {
-            Vector3 endPosition = wholePath.Last();
+            //Vector3 endPosition = wholePath.Last();
             Vector3 currentPosition = stateMachine.transform.position;
-            float distance = (endPosition - currentPosition).magnitude;
+            float distance = (TargetPosition - currentPosition).magnitude;
             return distance < 1f + offsetToTarget;
         }
 

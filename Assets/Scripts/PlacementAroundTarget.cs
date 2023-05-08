@@ -54,7 +54,6 @@ namespace Project
 
         private void OnTriggerEnter2D(Collider2D collision)
         {
-            return;
             if(collision == null) return;
             if(!IsLayerInLayerMask(collision.gameObject.layer)) return;
             if(!collision.TryGetComponent(out EnemyUnit unit)) return;
@@ -63,23 +62,12 @@ namespace Project
             {
                 AddToTaken(unit);
             }
-            else
-            {
-                AddUnitToQueue(unit);
-            }
         }
 
         private bool CanAssignPosition()
         {
             bool takenPositionsFull = takenPositions.Count == positions.Count;
             return !takenPositionsFull;
-        }
-
-        private void AddUnitToQueue(EnemyUnit unit)
-        {
-            if(unitsWaitingForPosition.Contains(unit)) return;
-            unitsWaitingForPosition.Add(unit);
-            unit.ChangeState(new IdleState(unit.StateMachine));
         }
 
         private bool IsLayerInLayerMask(int layer)

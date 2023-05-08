@@ -126,8 +126,8 @@ namespace Project
                 if(unit == null || unit is Builder)  continue;
                 StateMachine stateMachine = unit.GetComponent<StateMachine>();
                 AttackState attackState = new AttackState(attackTarget, stateMachine);
-                MoveState moveState = new MoveState(attackTarget.position, stateMachine, 5, attackState);
-                stateMachine.ChangeState(moveState);
+                //MoveState moveState = new MoveState(attackTarget.position, stateMachine, 5, attackState);
+                stateMachine.ChangeState(attackState);
             }
         }
 

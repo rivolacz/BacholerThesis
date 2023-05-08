@@ -716,7 +716,7 @@ MonoBehaviour:
   Target: {fileID: 0}
   EnemyLayerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 16384
   unitStats: {fileID: 11400000, guid: 06c82cc0c4c4d8141a64bd86e2e7bf3f, type: 2}
   AttackRangeBonus: 0
 --- !u!114 &2540806359232171506

@@ -8,7 +8,7 @@ namespace Project
     public class Bomb : MonoBehaviour
     {
         private Animator animator;
-        private float damage = 500;
+        private float damage = 60;
         const string explodeTrigger = "Explode";
 
         Collider2D objectToDestroy = null;

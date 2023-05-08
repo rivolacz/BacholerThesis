@@ -1283,6 +1283,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Target: {fileID: 0}
+  EnemyLayerMask:
+    serializedVersion: 2
+    m_Bits: 128
   unitStats: {fileID: 11400000, guid: 06c82cc0c4c4d8141a64bd86e2e7bf3f, type: 2}
   AttackRangeBonus: 0
 --- !u!114 &7577997881436384359
