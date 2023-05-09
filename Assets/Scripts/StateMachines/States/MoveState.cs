@@ -112,7 +112,7 @@ namespace Project.StateMachines.States
 #endif
             Vector3 currentPosition = stateMachine.transform.position;
             float distance = Vector3.Distance(TargetPosition ,currentPosition);
-            if(distance < 2 && stateAfterMovingToTarget != null)
+            if(distance < 2 && stateAfterMovingToTarget != null && stateAfterMovingToTarget is BuildingState)
             {
                 Debug.Log("Next state is " + stateAfterMovingToTarget.GetType());
                 stateMachine.ChangeState(stateAfterMovingToTarget);
@@ -178,9 +178,9 @@ namespace Project.StateMachines.States
 
         private bool IsAtEndOfPath()
         {
-            //Vector3 endPosition = wholePath.Last();
+            Vector3 endPosition = wholePath.Last();
             Vector3 currentPosition = stateMachine.transform.position;
-            float distance = (TargetPosition - currentPosition).magnitude;
+            float distance = (endPosition - currentPosition).magnitude;
             return distance < 1f + offsetToTarget;
         }
 

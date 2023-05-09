@@ -47,6 +47,7 @@ namespace Project.Waves
             {
                 bigDayCounter.font = font;
             }
+            Time.timeScale = 1;
             currentWaveTime = WaveTimes.First();
             StartCoroutine(nameof(NextWave));
         }
